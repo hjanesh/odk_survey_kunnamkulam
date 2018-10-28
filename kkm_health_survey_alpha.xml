@@ -1,0 +1,573 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>KKM_Health_Survey</h:title>
+    <model>
+      <instance>
+        <data id="build_Untitled-Form_1535541787">
+          <meta>
+            <instanceID/>
+          </meta>
+          <user/>
+          <phne/>
+          <common1>
+            <wardno/>
+            <hno/>
+            <subdoor/>
+          </common1>
+          <common2>
+            <name_family_head/>
+            <house-name/>
+            <phone>
+              0
+            </phone>
+            <no_male>
+              NA
+            </no_male>
+            <no_female>
+              NA
+            </no_female>
+            <owenership/>
+          </common2>
+          <type_of_hse/>
+          <type_specify/>
+          <water_source/>
+          <water_specify/>
+          <waste_manage/>
+          <waste_specify/>
+          <other>
+            <BioBin/>
+            <plastic/>
+            <harithakarmasena/>
+            <wastewater/>
+          </other>
+          <toilet/>
+          <toilet_specify/>
+          <diseases/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/common1:label">
+            <value>Common #1</value>
+          </text>
+          <text id="/data/common1/wardno:label">
+            <value>Ward Number</value>
+          </text>
+          <text id="/data/common1/hno:label">
+            <value>House Number</value>
+          </text>
+          <text id="/data/common1/hno:hint">
+            <value>Type 0 if not present</value>
+          </text>
+          <text id="/data/common1/subdoor:label">
+            <value>Sub Door Number</value>
+          </text>
+          <text id="/data/common1/subdoor:hint">
+            <value>&quot;NA&quot; if not present</value>
+          </text>
+          <text id="/data/common2:label">
+            <value>Common #2</value>
+          </text>
+          <text id="/data/common2/name_family_head:label">
+            <value>Name of Family Head</value>
+          </text>
+          <text id="/data/common2/house-name:label">
+            <value>House Name</value>
+          </text>
+          <text id="/data/common2/phone:label">
+            <value>Phone Number</value>
+          </text>
+          <text id="/data/common2/no_male:label">
+            <value>Male Members</value>
+          </text>
+          <text id="/data/common2/no_female:label">
+            <value>Female Members</value>
+          </text>
+          <text id="/data/common2/owenership:label">
+            <value>Ownership of House</value>
+          </text>
+          <text id="/data/common2/owenership:option0">
+            <value>Own</value>
+          </text>
+          <text id="/data/common2/owenership:option1">
+            <value>Rent</value>
+          </text>
+          <text id="/data/common2/owenership:option2">
+            <value>NA</value>
+          </text>
+          <text id="/data/type_of_hse:label">
+            <value>Type of House</value>
+          </text>
+          <text id="/data/type_of_hse:hint">
+            <value></value>
+          </text>
+          <text id="/data/type_of_hse:option0">
+            <value>Odu</value>
+          </text>
+          <text id="/data/type_of_hse:option1">
+            <value>Concrete</value>
+          </text>
+          <text id="/data/type_of_hse:option2">
+            <value>Others</value>
+          </text>
+          <text id="/data/type_specify:label">
+            <value>Others (Specify)</value>
+          </text>
+          <text id="/data/type_specify:hint">
+            <value>If others, specify.</value>
+          </text>
+          <text id="/data/water_source:label">
+            <value>Water Source</value>
+          </text>
+          <text id="/data/water_source:option0">
+            <value>OwnWell</value>
+          </text>
+          <text id="/data/water_source:option1">
+            <value>BoreWell</value>
+          </text>
+          <text id="/data/water_source:option2">
+            <value>Kulam</value>
+          </text>
+          <text id="/data/water_source:option3">
+            <value>LocalPipeline</value>
+          </text>
+          <text id="/data/water_source:option4">
+            <value>PublicWaterTap</value>
+          </text>
+          <text id="/data/water_source:option5">
+            <value>KWAPipeline</value>
+          </text>
+          <text id="/data/water_source:option6">
+            <value>Others</value>
+          </text>
+          <text id="/data/water_specify:label">
+            <value>Others (Specify)</value>
+          </text>
+          <text id="/data/water_specify:hint">
+            <value>If others, specify.</value>
+          </text>
+          <text id="/data/waste_manage:label">
+            <value>Waste Management</value>
+          </text>
+          <text id="/data/waste_manage:option0">
+            <value>BioGas</value>
+          </text>
+          <text id="/data/waste_manage:option1">
+            <value>VermiCompost</value>
+          </text>
+          <text id="/data/waste_manage:option2">
+            <value>CompostPit</value>
+          </text>
+          <text id="/data/waste_manage:option3">
+            <value>BioBin</value>
+          </text>
+          <text id="/data/waste_manage:option4">
+            <value>Burning</value>
+          </text>
+          <text id="/data/waste_manage:option5">
+            <value>ThrowAway</value>
+          </text>
+          <text id="/data/waste_manage:option6">
+            <value>Others</value>
+          </text>
+          <text id="/data/waste_specify:label">
+            <value>Others (Specify)</value>
+          </text>
+          <text id="/data/waste_specify:hint">
+            <value>If others, specify.</value>
+          </text>
+          <text id="/data/other:label">
+            <value>Other</value>
+          </text>
+          <text id="/data/other/BioBin:label">
+            <value>Buy BioBin?</value>
+          </text>
+          <text id="/data/other/BioBin:hint">
+            <value>Are you ready to buy a BioBin? (Will be provided by the Panchayat)</value>
+          </text>
+          <text id="/data/other/BioBin:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/other/BioBin:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/other/BioBin:option2">
+            <value>NA</value>
+          </text>
+          <text id="/data/other/plastic:label">
+            <value>Plastic Waste Disposal</value>
+          </text>
+          <text id="/data/other/plastic:option0">
+            <value>StoreAtHome</value>
+          </text>
+          <text id="/data/other/plastic:option1">
+            <value>Scrap Collector</value>
+          </text>
+          <text id="/data/other/plastic:option2">
+            <value>Burn</value>
+          </text>
+          <text id="/data/other/plastic:option3">
+            <value>Bury</value>
+          </text>
+          <text id="/data/other/plastic:option4">
+            <value>Public Places</value>
+          </text>
+          <text id="/data/other/harithakarmasena:label">
+            <value>Haritha Karma Sena</value>
+          </text>
+          <text id="/data/other/harithakarmasena:hint">
+            <value>Are you willing to pay the Haritha Karma Sena to collect plastic waste from your house?</value>
+          </text>
+          <text id="/data/other/harithakarmasena:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/other/harithakarmasena:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/other/harithakarmasena:option2">
+            <value>NA</value>
+          </text>
+          <text id="/data/other/wastewater:label">
+            <value>Waste Water</value>
+          </text>
+          <text id="/data/other/wastewater:option0">
+            <value>WasteWaterHole</value>
+          </text>
+          <text id="/data/other/wastewater:option1">
+            <value>TreeRoots</value>
+          </text>
+          <text id="/data/other/wastewater:option2">
+            <value>Agriculture</value>
+          </text>
+          <text id="/data/other/wastewater:option3">
+            <value>OutsideCompound</value>
+          </text>
+          <text id="/data/toilet:label">
+            <value>Toilet</value>
+          </text>
+          <text id="/data/toilet:option0">
+            <value>Septic Tank</value>
+          </text>
+          <text id="/data/toilet:option1">
+            <value>Pit Latrine</value>
+          </text>
+          <text id="/data/toilet:option2">
+            <value>Others</value>
+          </text>
+          <text id="/data/toilet_specify:label">
+            <value>Others (Specify)</value>
+          </text>
+          <text id="/data/toilet_specify:hint">
+            <value>If others, specify.</value>
+          </text>
+          <text id="/data/diseases:label">
+            <value>Diseases</value>
+          </text>
+          <text id="/data/diseases:hint">
+            <value>Common from each house.</value>
+          </text>
+          <text id="/data/diseases:option0">
+            <value>Kidney</value>
+          </text>
+          <text id="/data/diseases:option1">
+            <value>Liver</value>
+          </text>
+          <text id="/data/diseases:option2">
+            <value>Heart</value>
+          </text>
+          <text id="/data/diseases:option3">
+            <value>Cancer</value>
+          </text>
+          <text id="/data/diseases:option4">
+            <value>None</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <submission method="form-data-post" action="https://docs.google.com/spreadsheets/d/1Z2Dtnd5s6vzp_Pw7IkZG9xMpZiGZLgNG2dNPRg7dBiw/edit?usp=sharing"/>
+      <bind nodeset="/data/user" type="string" jr:preload="property" jr:preloadParams="username"/>
+      <bind nodeset="/data/phne" type="string" jr:preload="property" jr:preloadParams="phonenumber"/>
+      <bind nodeset="/data/common1/wardno" type="int" required="true()"/>
+      <bind nodeset="/data/common1/hno" type="int" required="true()"/>
+      <bind nodeset="/data/common1/subdoor" type="string" required="true()"/>
+      <bind nodeset="/data/common2/name_family_head" type="string" required="true()"/>
+      <bind nodeset="/data/common2/house-name" type="string" required="true()"/>
+      <bind nodeset="/data/common2/phone" type="string"/>
+      <bind nodeset="/data/common2/no_male" type="int"/>
+      <bind nodeset="/data/common2/no_female" type="int"/>
+      <bind nodeset="/data/common2/owenership" type="select1" required="true()"/>
+      <bind nodeset="/data/type_of_hse" type="select1"/>
+      <bind nodeset="/data/type_specify" type="string" relevant="(selected(/data/type_of_hse, 'Others'))"/>
+      <bind nodeset="/data/water_source" type="select"/>
+      <bind nodeset="/data/water_specify" type="string" relevant="(selected(/data/water_source, 'Others'))"/>
+      <bind nodeset="/data/waste_manage" type="select"/>
+      <bind nodeset="/data/waste_specify" type="string" relevant="(selected(/data/waste_manage, 'Others'))"/>
+      <bind nodeset="/data/other/BioBin" type="select1" required="true()"/>
+      <bind nodeset="/data/other/plastic" type="select"/>
+      <bind nodeset="/data/other/harithakarmasena" type="select1" required="true()"/>
+      <bind nodeset="/data/other/wastewater" type="select"/>
+      <bind nodeset="/data/toilet" type="select"/>
+      <bind nodeset="/data/toilet_specify" type="string" relevant="(selected(/data/toilet, 'others'))"/>
+      <bind nodeset="/data/diseases" type="select"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/common1:label')"/>
+      <input ref="/data/common1/wardno">
+        <label ref="jr:itext('/data/common1/wardno:label')"/>
+      </input>
+      <input ref="/data/common1/hno">
+        <label ref="jr:itext('/data/common1/hno:label')"/>
+        <hint ref="jr:itext('/data/common1/hno:hint')"/>
+      </input>
+      <input ref="/data/common1/subdoor">
+        <label ref="jr:itext('/data/common1/subdoor:label')"/>
+        <hint ref="jr:itext('/data/common1/subdoor:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/common2:label')"/>
+      <input ref="/data/common2/name_family_head">
+        <label ref="jr:itext('/data/common2/name_family_head:label')"/>
+      </input>
+      <input ref="/data/common2/house-name">
+        <label ref="jr:itext('/data/common2/house-name:label')"/>
+      </input>
+      <input ref="/data/common2/phone">
+        <label ref="jr:itext('/data/common2/phone:label')"/>
+      </input>
+      <input ref="/data/common2/no_male">
+        <label ref="jr:itext('/data/common2/no_male:label')"/>
+      </input>
+      <input ref="/data/common2/no_female">
+        <label ref="jr:itext('/data/common2/no_female:label')"/>
+      </input>
+      <select1 ref="/data/common2/owenership" appearance="minimal">
+        <label ref="jr:itext('/data/common2/owenership:label')"/>
+        <item>
+          <label ref="jr:itext('/data/common2/owenership:option0')"/>
+          <value>Own</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/common2/owenership:option1')"/>
+          <value>Rent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/common2/owenership:option2')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+    </group>
+    <select1 ref="/data/type_of_hse" appearance="minimal">
+      <label ref="jr:itext('/data/type_of_hse:label')"/>
+      <hint ref="jr:itext('/data/type_of_hse:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/type_of_hse:option0')"/>
+        <value>Odu</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/type_of_hse:option1')"/>
+        <value>Concrete</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/type_of_hse:option2')"/>
+        <value>Others</value>
+      </item>
+    </select1>
+    <input ref="/data/type_specify">
+      <label ref="jr:itext('/data/type_specify:label')"/>
+      <hint ref="jr:itext('/data/type_specify:hint')"/>
+    </input>
+    <select ref="/data/water_source" appearance="minimal">
+      <label ref="jr:itext('/data/water_source:label')"/>
+      <item>
+        <label ref="jr:itext('/data/water_source:option0')"/>
+        <value>OwnWell</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/water_source:option1')"/>
+        <value>BoreWell</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/water_source:option2')"/>
+        <value>Kulam</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/water_source:option3')"/>
+        <value>LocalPipeline</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/water_source:option4')"/>
+        <value>PublicWaterTap</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/water_source:option5')"/>
+        <value>KWAPipeline</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/water_source:option6')"/>
+        <value>Others</value>
+      </item>
+    </select>
+    <input ref="/data/water_specify">
+      <label ref="jr:itext('/data/water_specify:label')"/>
+      <hint ref="jr:itext('/data/water_specify:hint')"/>
+    </input>
+    <select ref="/data/waste_manage" appearance="minimal">
+      <label ref="jr:itext('/data/waste_manage:label')"/>
+      <item>
+        <label ref="jr:itext('/data/waste_manage:option0')"/>
+        <value>BioGas</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/waste_manage:option1')"/>
+        <value>VermiCompost</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/waste_manage:option2')"/>
+        <value>CompostPit</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/waste_manage:option3')"/>
+        <value>BioBin</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/waste_manage:option4')"/>
+        <value>Burning</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/waste_manage:option5')"/>
+        <value>ThrowAway</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/waste_manage:option6')"/>
+        <value>Others</value>
+      </item>
+    </select>
+    <input ref="/data/waste_specify">
+      <label ref="jr:itext('/data/waste_specify:label')"/>
+      <hint ref="jr:itext('/data/waste_specify:hint')"/>
+    </input>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/other:label')"/>
+      <select1 ref="/data/other/BioBin" appearance="minimal">
+        <label ref="jr:itext('/data/other/BioBin:label')"/>
+        <hint ref="jr:itext('/data/other/BioBin:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/other/BioBin:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other/BioBin:option1')"/>
+          <value>No</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other/BioBin:option2')"/>
+          <value>na</value>
+        </item>
+      </select1>
+      <select ref="/data/other/plastic" appearance="minimal">
+        <label ref="jr:itext('/data/other/plastic:label')"/>
+        <item>
+          <label ref="jr:itext('/data/other/plastic:option0')"/>
+          <value>Store</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other/plastic:option1')"/>
+          <value>ScrapCollector</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other/plastic:option2')"/>
+          <value>Burn</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other/plastic:option3')"/>
+          <value>Bury</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other/plastic:option4')"/>
+          <value>PublicPlaces</value>
+        </item>
+      </select>
+      <select1 ref="/data/other/harithakarmasena" appearance="minimal">
+        <label ref="jr:itext('/data/other/harithakarmasena:label')"/>
+        <hint ref="jr:itext('/data/other/harithakarmasena:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/other/harithakarmasena:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other/harithakarmasena:option1')"/>
+          <value>No</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other/harithakarmasena:option2')"/>
+          <value>NA</value>
+        </item>
+      </select1>
+      <select ref="/data/other/wastewater" appearance="minimal">
+        <label ref="jr:itext('/data/other/wastewater:label')"/>
+        <item>
+          <label ref="jr:itext('/data/other/wastewater:option0')"/>
+          <value>WasteWaterhole</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other/wastewater:option1')"/>
+          <value>TreeRoots</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other/wastewater:option2')"/>
+          <value>Agriculture</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/other/wastewater:option3')"/>
+          <value>OutsideCompound</value>
+        </item>
+      </select>
+    </group>
+    <select ref="/data/toilet" appearance="minimal">
+      <label ref="jr:itext('/data/toilet:label')"/>
+      <item>
+        <label ref="jr:itext('/data/toilet:option0')"/>
+        <value>SepticTank</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/toilet:option1')"/>
+        <value>PitLatrine</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/toilet:option2')"/>
+        <value>others</value>
+      </item>
+    </select>
+    <input ref="/data/toilet_specify">
+      <label ref="jr:itext('/data/toilet_specify:label')"/>
+      <hint ref="jr:itext('/data/toilet_specify:hint')"/>
+    </input>
+    <select ref="/data/diseases" appearance="minimal">
+      <label ref="jr:itext('/data/diseases:label')"/>
+      <hint ref="jr:itext('/data/diseases:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/diseases:option0')"/>
+        <value>Kidney</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/diseases:option1')"/>
+        <value>Liver</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/diseases:option2')"/>
+        <value>Heart</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/diseases:option3')"/>
+        <value>Cancer</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/diseases:option4')"/>
+        <value>None</value>
+      </item>
+    </select>
+  </h:body>
+</h:html>
